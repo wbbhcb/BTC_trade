@@ -6,6 +6,7 @@ import os
 from tqdm import tqdm
 
 def transform(x):
+    # 可以用来转换时间
     return datetime.datetime.fromtimestamp(int(x) // 1000)
 
 
